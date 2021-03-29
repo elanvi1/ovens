@@ -1,0 +1,1 @@
+document.getElementById('gmap_canvas').src='https://maps.google.com/maps?q=Bulevardul%20Metalurgiei%2078&t=&z=13&ie=UTF8&iwloc=&output=embed';

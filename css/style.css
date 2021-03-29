@@ -1,0 +1,200 @@
+.navbar{
+  padding-bottom: 5px!important;
+}
+
+.myNavbar{
+  border-bottom: solid 5px red;
+}
+  
+#myDropdown{
+  position:relative;
+}
+
+#myMenu{
+  position:absolute;
+  z-index: 1;
+  display:none;
+  border-radius:0!important;
+}
+
+nav .navbar-nav{
+  cursor:pointer;
+}
+
+.nav-link{
+  color: #515286!important;
+  font-family: "DroidSansRegular";
+  font-size: 20px;
+  padding-left: 1.5rem!important;
+  padding-right: 1.2rem!important;
+}
+
+.nav-item:hover, .navbar-nav .active{
+  border: solid 0.1px #B0B0B0;
+  box-shadow: 2px 5px #888888;
+}
+
+.navbar-brand {
+  font-size: 25px;
+  color: rgb(27, 26, 27);
+  text-shadow: 3px 2px 0 rgb(204, 203, 203);
+  white-space: normal;
+}
+
+
+#showcase .carousel-item {
+  height: 450px;
+}
+
+#main-section{
+  background-color: #f8f9fa !important;
+  font-weight: 700!important;
+}
+
+#main-section img{
+  border-radius:30%;
+}
+
+#page-header {
+  height: 300px;
+  position:relative;
+  background: url('../images/Image3Prime.jpg');
+  width:100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-bottom: 1px #eee solid;
+  line-height: 2rem;
+  font-size: 1.5rem;
+  color:rgb(219, 222, 226);
+  
+}
+
+.dark-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4);
+}
+
+#experienta {
+  /* background-color: #f8f9fa !important; */
+  background-color: white
+   !important;
+}
+
+#experienta img{
+  border-radius:20%;
+}
+
+
+
+#romania,#romania1{
+  display: block;
+  position: relative;
+  color:rgb(31, 11, 78);
+  font-weight:700;
+  
+}
+
+#romania::after,#romania1::after{
+  content: "";
+  background: url('../images/Image5Prime.gif');
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.2;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-position: center ;
+  z-index: -1;  
+}
+
+#global, #global1{
+  display: block;
+  position: relative;
+  color:rgb(31, 11, 78);
+  font-weight:700!important;
+  line-height: 2.7rem;
+}
+
+#global::after, #global1::after{
+  content: "";
+  background: url('../images/Image6Prime.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.3;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-position: center ;
+  z-index: -1;  
+}
+
+#categorii a, #incineratoare a, #tratament_termic a, #petrochimie a{
+  text-decoration: none;
+  color:#515286;
+}
+
+
+
+.mapouter{
+  position:relative;
+  text-align:right;
+  height:500px;
+  width:100%;
+}
+
+.gmap_canvas {
+  overflow:hidden;
+  background:none!important;
+  height:500px;width:100%;
+}
+
+#gmap_canvas{
+  width:100%;
+  height:500px;
+  border-style:none;
+}
+
+/* FOR INDEX */
+@media (min-width: 0){
+  #showcase  .carousel-item {
+    height: 200px;
+  }
+}
+
+@media (min-width: 460px){
+  #showcase  .carousel-item {
+    height: 250px;
+  }
+}
+
+@media (min-width: 813px){
+  #showcase  .carousel-item {
+    height: 450px;
+  }
+}
+
+/* Despre noi */
+
+@media (max-width: 540px){
+ #page-header{
+   background: url('../images/Image3Prime2.jpg');
+   background-repeat:no-repeat;
+   position:relative;
+   height: 300px;
+   width:100%;
+   background-size: cover;
+   border-bottom: 1px #eee solid;
+   line-height: 2rem;
+   font-size: 1.5rem;
+   color:rgb(219, 222, 226);
+ }
+}
+
